@@ -8,11 +8,9 @@ const btoa = require("btoa");
 const atob = require("atob");
 
 const app = express();
-const router = express.Router();
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use("/", router);
 
 app.post("/shorten", async (req, res, next) => {
   const { url } = req.body;
