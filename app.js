@@ -18,12 +18,12 @@ app.use((req, res, next) => {
 
 app.use("/service", router);
 
-router.post("/url-shorten", (req, res, next) => {
+router.post("/shorten", (req, res, next) => {
   // Proxy request to url shortner microservice
   urlShortnerServiceProxy(req, res, next);
 });
 
-router.get("/url-shorten-stats", (req, res, next) => {
+router.get("/stats", (req, res, next) => {
   // Proxy request to url shortner stats microservice
   urlShortnerStatsServiceProxy(req, res, next);
 });
