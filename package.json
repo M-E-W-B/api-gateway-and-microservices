@@ -1,7 +1,7 @@
 {
-  "name": "url-shortner",
+  "name": "url-shortner-stats",
   "version": "1.0.0",
-  "description": "Url Shortner",
+  "description": "Url Shortner Stats",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
@@ -19,11 +19,7 @@
   },
   "homepage": "https://github.com/M-E-W-B/api-gateway-and-microservices#readme",
   "dependencies": {
-    "atob": "^2.0.3",
-    "body-parser": "^1.18.2",
-    "btoa": "^1.1.2",
     "express": "^4.16.2",
-    "mongoose": "^5.0.9",
-    "validator": "^9.4.1"
+    "mongoose": "^5.0.9"
   }
 }

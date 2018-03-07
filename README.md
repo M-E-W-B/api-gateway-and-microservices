@@ -1,3 +1,3 @@
-# Url Shortner Microservice
+# Url Shortner Stats Microservice
 
 Implementation of a basic api gateway for microservices
