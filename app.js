@@ -3,9 +3,6 @@ const mongoose = require("mongoose");
 const { Url } = require("./models");
 
 const app = express();
-const router = express.Router();
-
-app.use("/", router);
 
 app.get("/stats", async (req, res, next) => {
   const result = await Url.find();
