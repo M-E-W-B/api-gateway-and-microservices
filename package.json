@@ -1,0 +1,26 @@
+{
+  "name": "api-gateway-and-microservices",
+  "version": "1.0.0",
+  "description": "API gateway",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-http-proxy": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M-E-W-B/api-gateway-and-microservices.git"
+  },
+  "keywords": ["api", "gateway", "microservice", "nodejs", "expressjs"],
+  "author": "kshirish",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/M-E-W-B/api-gateway-and-microservices/issues"
+  },
+  "homepage": "https://github.com/M-E-W-B/api-gateway-and-microservices#readme"
+}

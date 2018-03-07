@@ -1,0 +1,6 @@
+{
+  "microservices": {
+    "urlShortner": "https://user-service",
+    "urlShortnerStats": "https://user-service"
+  }
+}
