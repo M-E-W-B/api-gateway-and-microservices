@@ -1,7 +1,7 @@
 {
   "secret": "what's the rumpus",
   "database": {
-    "url": "mongodb://localhost:27017/url-shortner",
+    "url": "mongodb://test:test@ds159330.mlab.com:59330/url-shorten",
     "options": {
       "autoIndex": false,
       "poolSize": 10,
