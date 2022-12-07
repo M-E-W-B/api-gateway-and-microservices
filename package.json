@@ -4,7 +4,7 @@
   "description": "API gateway",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.16.2",
+    "express": "^4.17.3",
     "express-http-proxy": "^1.1.0"
   },
   "devDependencies": {},
